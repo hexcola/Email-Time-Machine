@@ -1,0 +1,30 @@
+[
+  {
+    "namespace": "MessageModifier",
+    "functions": [
+      {
+        "name": "modifyMessageDate",
+        "type": "function",
+        "async": true,
+        "description": "Modifies the date of a message",
+        "parameters": [
+          {
+            "name": "messageId",
+            "type": "integer",
+            "description": "The ID of the message to modify"
+          },
+          {
+            "name": "newDate",
+            "type": "string",
+            "description": "The new date string"
+          },
+          {
+            "name": "dstFolder",
+            "type": "string",
+            "description": "Where to copy the email"
+          }
+        ]
+      }
+    ]
+  }
+]
